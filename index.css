@@ -1,0 +1,84 @@
+@font-face {
+    font-family: coture;
+    src: url(couture-bldit.otf);
+}
+@font-face {
+    font-family:moon;
+    src: url(Moonrising.otf);
+}
+@font-face {
+    font-family: cream;
+    src: url(cream-DEMO.otf);
+}
+
+body{
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(59, 134, 154));    
+}
+
+h3{
+    text-align: center;
+    padding-top: 4%;
+    margin-bottom: 0%;
+    color: rgb(232, 147, 0);
+    font-size: 160%;
+    font-family: coture;
+    font-weight: lighter;
+}
+h4{
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 0%;
+    margin-bottom: 0;
+    color: rgb(232, 147, 0);
+    font-size: 670%;
+    font-weight: lighter;
+    font-family: moon;
+}
+h5{
+    font-family: built;
+    font-weight: lighter;
+}
+p{
+    text-align: center;
+    padding-bottom: 4%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(232, 147, 0);
+    font-size:100%;
+    font-family: cream;
+    font-weight: 50;
+}
+.discription h3{
+    margin: 0%;
+    text-align: center;
+    font-size: 30px;
+   
+}
+.discription p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 2%;  
+}
+
+@media(max-width:500px){
+    h3{
+      
+        font-size: 18px;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+   h4{
+    font-size: 18px;
+    margin-left: 4%;
+        margin-right: 4%;
+   }
+    p{
+        font-size: 9px;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+    image1 h3{
+        font-family: 18px;
+    }
+}
